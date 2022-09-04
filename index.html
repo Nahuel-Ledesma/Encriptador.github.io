@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<title>Challenge 1 - Encriptador</title>
+</head>
+<body">
+	<header>
+		<div class="header-contenedor">
+			<nav>
+				<h1><img class="logo" src="imagen/Logo.png"></h1>
+				<ul>
+					<li class="item"><a href="index.html">Encriptador</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<div class="main-contenedor"> 
+		<main>
+			<div class="cuadros">
+				<textarea class="texto ingreso" onfocus="textFocus()" onclick="textClick()" onblur="textBlur()" placeholder="Ingrese el texto aquí"></textarea>
+				<textarea class="texto resultado" onblur="resultadoBlur()" placeholder="Texto encriptado o desencriptado aquí"></textarea>
+			</div>
+
+			<p>&#9888 Solo letras minúsculas y sin acentos</p>
+
+			<div class="botones">
+				<button class="btn encoder" onclick="btnEncoder()"> Encriptar </button>
+				<button class="btn decoder" onclick="btnDecoder()"> Desencriptar </button>
+				<button class="btn" onclick="btnCopy()"> Copiar </button>
+			</div>
+		</main>
+	</div>
+
+
+	<script src="js/code.js"></script>
+</body>
+</html>

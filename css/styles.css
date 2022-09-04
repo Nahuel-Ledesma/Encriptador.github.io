@@ -1,0 +1,118 @@
+body{
+	background-color: #E5E5E5;  
+}
+
+.header-contenedor{
+	padding: 20px 0;
+	height: 50px;
+	width: 940px;
+	margin: 15px auto 0;
+	text-align: center;
+}
+
+.logo{
+	float: left;
+}
+
+.item{
+	padding-top: 10px;
+}
+
+nav li{
+	display: inline;
+	margin: 0 0 0 50px;
+}
+
+nav a{
+	text-transform: uppercase;
+	color: #000;
+	font-weight: bold;
+	font-size: 30px;
+	text-decoration: none;
+	transition: 0.2s;
+}
+
+nav a:hover{
+	color: #1C4FD6;
+	text-decoration: underline;
+	font-size: 32px;
+	transition: 0.2s;
+}
+
+
+.main-contenedor{
+	width: 940px;
+	margin: 0 auto;
+	padding: 2em 0;
+}
+
+main{
+	width: 110%;
+}
+
+.cuadros{
+	height: 500px;
+}
+
+textarea{
+	resize: none;
+}
+
+.texto{
+	border: 2px solid #888;
+	border-radius: 15px;	
+	text-align: center;
+	font-size: 22px;
+	padding-top: 15px;
+}
+
+.ingreso{
+	width: 65%;
+	height: 100%;
+	background-image: url(../imagen/Lapiz.png);
+	background-size: 10%;
+	background-repeat: no-repeat;
+	background-position: center;
+	box-shadow: -5px 5px #888;
+	vertical-align: top;
+	transition: 0.2s;
+}
+
+.resultado{
+	width: 31%;
+	height: 122%;
+	background-image: url("../imagen/Muñeco.png");
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: center;
+	box-shadow: 5px 5px #888;
+	margin-left: 15px;
+}
+
+
+main p{
+	margin-top: 40px;
+}
+
+
+.botones{
+	margin-bottom: 30px;
+}
+
+.btn{
+	border: 2px solid #666;
+	border-radius: 10px;
+	background-color: #3D97F2;
+	transition: 0.3s;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	font-size: 22px;
+	margin: 25px 40px 0 -5px;
+}
+
+.btn:hover{
+	background-color: #4FDBFA;
+	transform: scale(1.1);
+	transition: 0.3s;
+}
