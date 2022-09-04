@@ -47,7 +47,7 @@ nav a:hover{
 }
 
 main{
-	width: 110%;
+	width: 100%;
 }
 
 .cuadros{
@@ -108,11 +108,61 @@ main p{
 	height: 50px;
 	text-align: center;
 	font-size: 22px;
-	margin: 25px 40px 0 -5px;
+	margin: 25px 12px 0 -5px;
 }
 
 .btn:hover{
 	background-color: #4FDBFA;
 	transform: scale(1.1);
 	transition: 0.3s;
+}
+
+
+
+
+
+
+/* Estilos para responsive */
+
+@media screen and (max-width: 480px){
+	nav li{
+		margin: auto;
+	}
+
+	nav a{
+		font-size: 50px;
+	}
+
+	.main-contenedor{
+		margin: 0 auto;
+	}	
+
+	.cuadros{
+		display: block;
+	}
+
+	.texto{
+		font-size: 40px;
+	}
+
+	.ingreso{
+		width: 80%;
+		margin-left: 100px;
+		background-size: 20%;
+	}
+
+	.resultado{
+		width: 80%;
+		margin: 180px 0 10px 100px;
+		background-size: 50%;
+	}
+
+	.main-contenedor p{
+		margin-left: 100px;
+		font-size: 40px;
+	}
+
+	.botones{
+		margin-left: 175px;
+	}
 }
