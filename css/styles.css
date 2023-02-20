@@ -144,7 +144,7 @@ main p{
 	}
 
 	.cuadros{
-		display: block;
+		display: inline;
 	}
 
 	.texto{
